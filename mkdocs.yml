@@ -1,8 +1,7 @@
 site_name: Mapping Routes
-site_author: Sören Reinecke alias Valor Naram
-repo_url: https://github.com/trufi-association/mapping-documentation
-repo_name: mapping-documentation
-site_description: Documentation for communities along the Trufi Association stream who need to map bus routes for OpenStreetMap.
+repo_url: https://github.com/trufi-association/mapping-documentation-french
+repo_name: mapping-documentation-french
+site_description: Documentation in Spanish for communities along the Trufi Association stream who need to map bus routes for OpenStreetMap.
 
 theme: readthedocs
 
