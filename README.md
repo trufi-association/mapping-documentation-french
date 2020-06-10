@@ -1,7 +1,7 @@
-# Mapping Bus Routes
+# Cartographie des itinéraires de bus
 
-[![Documentation Status](https://readthedocs.org/projects/mapping-documentation-french/badge/?version=master)](https://mapping-bus-routes.readthedocs.io/fr/master/?badge=master)
+[![Statut de la documentation](https://readthedocs.org/projects/mapping-documentation-french/badge/?version=master)](https://mapping-bus-routes.readthedocs.io/fr/master/?badge=master)
 
-**Click [here](blob/master/docs/index.md) to get to the documentation.**
+**Cliquez [ici](blob/master/docs/index.md) pour accéder à la documentation.**
 
-The official documentation is at: https://mapping-bus-routes.readthedocs.io/fr/master/
+La documentation officielle se trouve à l'adresse suivante: https://mapping-bus-routes.readthedocs.io/fr/master/
