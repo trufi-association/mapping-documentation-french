@@ -1,55 +1,55 @@
-# How to install JOSM
+# Comment installer JOSM
 
-## Installing JOSM on Linux
+## Installation de JOSM sur Linux
 
-JOSM is a desktop application which we use for adding public transport routes to OpenStreetMap. But JOSM (Java OpenStreetMap (editor)) is much more powerful and sometimes complicated too. We wrote a _[how to](../installing-mapping-tool/index.md)_ for you that makes it more easy to use for mapping public transport routes. This documentation covers just the steps of installing JOSM. We do not start here to show you how to use it to map routes. This covers just the installation procedure on Linux.
+JOSM est une application de bureau que nous utilisons pour ajouter des itinéraires de transport public à OpenStreetMap. Mais JOSM (Java OpenStreetMap (éditeur)) est beaucoup plus puissant et parfois aussi compliqué. Nous avons écrit un _[guide] (../installation-mapping-tool/index.md)_ pour vous qui le rend plus facile à utiliser pour cartographier les itinéraires de transports publics. Cette documentation ne couvre que les étapes d'installation de JOSM. Nous ne montrons pas ici comment l'utiliser pour cartographier des itinéraires. Elle couvre seulement la procédure d'installation sous Linux.
 
-### Installing Java
+### Installation de Java
 
-1. Open a terminal by pressing the _WINDOWS_ key on your keyboard and typing `terminal` in the searchbar. It depends on the desktop system and startmenu you use how the searchbar works in detail. You might have to activate it first to start typing.
+1. Ouvrez un terminal en appuyant sur la touche _WINDOWS_ de votre clavier et en tapant "terminal" dans la barre de recherche. Cela dépend du système d'exploitation et du menu de démarrage que vous utilisez, la façon dont la barre de recherche fonctionne en détail. Vous devrez peut-être l'activer d'abord pour commencer à taper.
 
-2. Open the terminal by pressing on the entry that appears. The entry should be labeled like `Terminal`, `Gnome Terminal` or`Xfce Terminal` etc.
+2. Ouvrez le terminal en appuyant sur l'entrée qui apparaît. L'entrée doit être libellée comme suit `Terminal`, `Gnome Terminal` ou`Xfce Terminal` etc.
 
-3. The window that pop ups should look similiar to mine: ![](terminal.png)
+3. La fenêtre qui s'ouvre devrait ressembler à la mienne: ![](terminal.png)
 
-4. In this window we type `java -version`and press ENTER to check, if it's already installed. Most Linux derivatives have java installed by default.
+4. Dans cette fenêtre, nous tapons `java -version`et nous appuyons sur la touche ENTRÉE pour vérifier si elle est déjà installée. La plupart des dérivés de Linux ont java installé par défaut.
 
-5. If your window looks like this you have Java already installed and you can skip _Installing Java_: ![](terminal-java-version.png)
+5. Si votre fenêtre ressemble à ceci, vous avez déjà installé Java et vous pouvez ignorer _Installation de Java_: ![](terminal-java-version.png)
 
-6. If your window does not appear to be like in the picture from above then you do not have Java installed. Is this the case we need to install it first:
+6. Si votre fenêtre ne ressemble pas à l'image ci-dessus, c'est que Java n'est pas installé. Dans ce cas, nous devons d'abord l'installer :
    
-   - Installation on **Debian**, **Ubuntu** and similiar like **Kubuntu**, **Xubuntu**:
+   - Installation sur **Debian**, **Ubuntu** et similaires comme **Kubuntu**, **Xubuntu**:
      
-     - Type `sudo apt install openjdk-11-jre`. If this throws you an error try `su -c "apt install openjdk-11-jre"`. Like every command we type it also requires that you press ENTER to send it to your processor. Additionally both commands prompt you for your password like:![](terminal-password-prompt.png)
+     - Tapez `sudo apt install openjdk-11-jre`. Si cela vous donne une erreur, essayez `su -c "apt install openjdk-11-jre"`. Comme chaque commande que nous tapons, elle nécessite également que vous appuyiez sur ENTRÉE pour l'envoyer à votre processeur. De plus, les deux commandes vous demandent votre mot de passe comme:![](terminal-password-prompt.png)
      
-     - Type in your password. It's the password for the root account you set during installation or it's the password for your user you use to log in into your computer (if not deactivated). **For security reason you do not see what you type. You do not even see a `*` char for every character you type.**
+     - Saisissez votre mot de passe. C'est le mot de passe du compte root que vous avez défini lors de l'installation ou le mot de passe de votre utilisateur que vous utilisez pour vous connecter à votre ordinateur (s'il n'est pas désactivé). **Pour des raisons de sécurité, vous ne voyez pas ce que vous tapez. Vous ne voyez même pas un caractère "*" pour chaque caractère que vous tapez.**
      
-     - You will be given a summary of what will be done with your system and at the end you will be asked, if you are willing to apply these changes. ![](terminal-apt-prompt.png)
+     - On vous donnera un résumé de ce qui sera fait avec votre système et, à la fin, on vous demandera si vous êtes prêt à appliquer ces changements. ![](terminal-apt-prompt.png)
      
-     - Type in `Y` and press ENTER. Now he's going to download and install Java for us. If you get to know `apt` then it will save you a lot of time. Normally as Windows user you would have to go to download site, download the installer and run it and follow the installation intructions. On Linux this is not necessary.
+     - Tapez `Y` et appuyez sur ENTRÉE. Il va maintenant télécharger et installer Java pour nous. Si vous apprenez à connaître `apt', cela vous fera gagner beaucoup de temps. Normalement, en tant qu'utilisateur de Windows, vous devez aller sur le site de téléchargement, télécharger l'installateur et l'exécuter, puis suivre les instructions d'installation. Sous Linux, cela n'est pas nécessaire.
    
-   - Installation on Red-Hat like systems e.g. **Fedora**, **Oracle Linux**:
+   - Installation sur des systèmes de type Red-Hat, par exemple **Fedora**, **Oracle Linux**:
      
-     - Type `sudo yum install openjdk-1.8.0-jre`. Like every command we type it also requires that you press ENTER to send it to your processor. Additionally it prompts you for your password.
+     - Tapez `sudo yum install openjdk-1.8.0-jre`. Comme chaque commande que nous tapons, elle nécessite également que vous appuyiez sur ENTRÉE pour l'envoyer à votre processeur. En outre, il vous demande votre mot de passe.
      
-     - Type in your password. It's the password for the root account you set during installation or it's the password for your user you use to log in into your computer (if not deactivated). **For security reason you do not see what you type. You do not even see a `*` char for every character you type.**
+     - Saisissez votre mot de passe. C'est le mot de passe du compte root que vous avez défini lors de l'installation ou le mot de passe de votre utilisateur que vous utilisez pour vous connecter à votre ordinateur (s'il n'est pas désactivé). **Pour des raisons de sécurité, vous ne voyez pas ce que vous tapez. Vous ne voyez même pas un caractère `*` pour chaque caractère que vous tapez.**
      
-     - You will be given a summary of what will be done with your system and at the end you will be asked, if you are willing to apply these changes. 
+     - On vous donnera un résumé de ce qui sera fait avec votre système et, à la fin, on vous demandera si vous êtes prêt à appliquer ces changements. 
      
-     - Type in `Y` and press ENTER. Now he's going to download and install Java for us. If you get to know `apt` then it will save you a lot of time. Normally as Windows user you would have to go to download site, download the installer and run it and follow the installation intructions. On Linux this is not necessary.
+     - Tapez `Y` et appuyez sur ENTRÉE. Il va maintenant télécharger et installer Java pour nous. Si vous apprenez à connaître `apt', cela vous fera gagner beaucoup de temps. Normalement, en tant qu'utilisateur de Windows, vous devez aller sur le site de téléchargement, télécharger l'installateur et l'exécuter, puis suivre les instructions d'installation. Sous Linux, cela n'est pas nécessaire.
    
-   - **ToDo:** _Add more Linux derivatives_
+   - **ToDo:** _Ajouter plus de dérivés de Linux_.
 
-### Installing JOSM
+### Installation de JOSM
 
-At this point we do not need the Terminal anymore.
+À ce stade, nous n'avons plus besoin du terminal.
 
-1. Download JOSM from [here](https://josm.openstreetmap.de/). ![](website-josm-download.png)
+1. Télécharger JOSM [ici](https://josm.openstreetmap.de/). ![](website-josm-download.png)
 
-2. Save it onto your computer or a portable storage device. Save it anywhere you want.
+2. Enregistrez-le sur votre ordinateur ou sur un périphérique de stockage portable. Enregistrez-le où vous voulez.
 
-3. With your file browser go to the location where you downloaded the file. Do a right click on the previously downloaded file and click on _Properties_:![](contextmenu-properties.png)
+3. Avec votre navigateur de fichiers, allez à l'endroit où vous avez téléchargé le fichier. Faites un clic droit sur le fichier précédemment téléchargé et cliquez sur _Propriétés_:![](contextmenu-properties.png)
 
-4. Head over to the _Permissions_ section and tick there the box _Allow executing file as program_: ![](properties-permissions.png)
+4. Allez à la section _Permissions_ et cochez-y la case _Autoriser l'exécution du fichier comme programme_: ![](properties-permissions.png)
 
-5. We can close the window and double clicking on the program icon should open  JOSM. If JOSM does not open but a pop up appears and you see some buttons and one is labeled _Run_ then click that button and JOSM should open.
+5. Nous pouvons fermer la fenêtre et un double clic sur l'icône du programme devrait ouvrir JOSM. Si JOSM ne s'ouvre pas mais qu'une fenêtre apparaît et que vous voyez des boutons dont l'un est intitulé _Run_, alors cliquez sur ce bouton et JOSM devrait s'ouvrir.
