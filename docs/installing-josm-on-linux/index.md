@@ -1,5 +1,8 @@
 # Comment installer JOSM
 
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+
 ## Installation de JOSM sur Linux
 
 JOSM est une application de bureau que nous utilisons pour ajouter des itinéraires de transport public à OpenStreetMap. Mais JOSM (Java OpenStreetMap (éditeur)) est beaucoup plus puissant et parfois aussi compliqué. Nous avons écrit un _[guide] (../installation-mapping-tool/index.md)_ pour vous qui le rend plus facile à utiliser pour cartographier les itinéraires de transports publics. Cette documentation ne couvre que les étapes d'installation de JOSM. Nous ne montrons pas ici comment l'utiliser pour cartographier des itinéraires. Elle couvre seulement la procédure d'installation sous Linux.

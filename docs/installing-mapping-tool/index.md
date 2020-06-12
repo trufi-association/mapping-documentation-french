@@ -1,5 +1,8 @@
 # Installer un outil pour cartographier les lignes de bus
 
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+
 L'outil que nous allons installer permet de cartographier facilement les itinéraires des bus dans les pays en développement. Bien entendu, l'outil peut également être utilisé dans les pays développés. L'outil que nous allons installer joue un rôle important dans notre mission de cartographie des transports publics et dans l'incitation des communautés à s'en occuper. Ce tutoriel suppose que vous avez installé et fait fonctionner JOSM et que vous avez obtenu le fichier de configuration (`.xml`) de votre communauté.
 
 1. Assurez-vous que vous avez l'outil (le fichier de configuration avec l'extension `.xml`) que votre communauté utilise. Demandez-lui, si vous ne l'avez pas. Normalement, ils vous dirigent vers ce tutoriel auquel le fichier est destiné.

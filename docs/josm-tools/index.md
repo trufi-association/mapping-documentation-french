@@ -1,5 +1,8 @@
 # Barre supérieure : _Outils_ dans JOSM
 
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+
 Vous avez peut-être vu![](josm-topbar-tools.png)
 
 et vous vous demandez de quoi il s'agit. Je vais vous en donner un bref aperçu.
