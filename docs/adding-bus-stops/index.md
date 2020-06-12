@@ -1,7 +1,7 @@
 # Ajout d'arrêts de bus
 
 !!! note ""
-	Kokou ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org/)
+	Kokou ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org/))
 
 ## Ajout d'arrêts de bus et de quais pour les passagers en attente
 
