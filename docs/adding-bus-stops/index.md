@@ -1,5 +1,8 @@
 # Ajout d'arrêts de bus
 
+!!! note ""
+	Kokou ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org/)
+
 ## Ajout d'arrêts de bus et de quais pour les passagers en attente
 
 C'est un grand jour pour cartographier les arrêts de bus et la position des passagers en attente. Mais laissez-moi d'abord vous expliquer la différence entre les deux. Votre communauté peut accepter de ne cartographier que l'un d'entre eux ou même de ne pas cartographier les deux. Veuillez demander à votre communauté ce qu'elle souhaite cartographier ici pour que vous puissiez vraiment cartographier ce qui est souhaité.
