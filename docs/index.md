@@ -41,3 +41,6 @@ Documentation pour les communautés le long du parcours de l'Association Trufi. 
 [Comprendre la section _couches_ présentée à droite de l'éditeur](josm-editor-layers/index.md) - Un aperçu rapide de la section _Couches_ de l'éditeur JOSM. C'est un outil très important.
 
 # Contributeurs
+
+- TCHAMIE Léleng Denis ([OSM Togo](https://openstreetmap.tg/))
+- Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/))
