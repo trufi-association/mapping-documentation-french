@@ -1,6 +1,7 @@
-# Documentation
+# Séparer un chemin en deux ou plusieurs
 
-## Séparer un chemin en deux ou plusieurs
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
 Il peut être nécessaire de diviser les voies (couper une voie en deux ou plus) lorsqu'on ajoute une relation qui suit la voie pendant un certain temps et **pas** jusqu'à la fin. Ajouter un chemin à une relation sans le diviser peut avoir des effets secondaires indésirables. La division d'un chemin est également nécessaire lorsque les balises ne sont pas cohérentes en cours de route (de la position A à la position B, les balises diffèrent de celles de la position C à la position D).
 

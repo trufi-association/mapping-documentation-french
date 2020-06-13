@@ -1,5 +1,8 @@
 # Explication des _Couches_ dans l'éditeur JOSM
 
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+
 ![](josm-editor-layers.png)
 
 Vous avez peut-être déjà vu cela auparavant et vous vous demandez peut-être à quoi cela sert.

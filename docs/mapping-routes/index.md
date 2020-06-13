@@ -1,5 +1,8 @@
 # Cartographie des lignes de bus informelles
 
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+
 Ce tutoriel montre comment ajouter des lignes de bus informelles à OpenStreetMap. Pour que ce tutoriel soit efficace, vous devez avoir [JOSM installé](../installing-josm-on-linux/index.md) et l'outil [de cartographie personnalisée](../installing-mapping-tool/index.md) (si votre communauté l'exige). Pour télécharger vos modifications dans OSM, vous avez également besoin de votre installation JOSM [synchronisée] (../oauth-josm/index.md) avec votre compte OpenStreetMap.
 
 ## Préparer notre lieu de travail
