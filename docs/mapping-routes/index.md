@@ -1,111 +1,111 @@
-# Mapping informal bus routes
+# Cartographie des lignes de bus informelles
 
-This tutorial shows how to add informal bus routes to OpenStreetMap. For this tutorial to be effective you need [JOSM installed](../installing-josm-on-linux/index.md) and the [custom mapping tool](../installing-mapping-tool/index.md) (when requirred by your community). In order to upload your changes to OSM you need also your JOSM installation [synced](../oauth-josm/index.md) with your OpenStreetMap account.
+Ce tutoriel montre comment ajouter des lignes de bus informelles à OpenStreetMap. Pour que ce tutoriel soit efficace, vous devez avoir [JOSM installé](../installing-josm-on-linux/index.md) et l'outil [de cartographie personnalisée](../installing-mapping-tool/index.md) (si votre communauté l'exige). Pour télécharger vos modifications dans OSM, vous avez également besoin de votre installation JOSM [synchronisée] (../oauth-josm/index.md) avec votre compte OpenStreetMap.
 
-## Preparing our workplace
+## Préparer notre lieu de travail
 
-1. Open JOSM (this tutorial assumes that you have it already). ![](josm-logo.png)
+1. Ouvrez JOSM (ce tutoriel suppose que vous l'avez déjà). ![](josm-logo.png)
 
-2. A window should pop up like ![](josm-startpage.png)
+2. Une fenêtre devrait s'ouvrir comme suit ![](josm-startpage.png)
 
-3. First we should load the data you received from your community. Click on _File_ in the topbar:![](josm-topbar.png)
+3. Nous devons d'abord charger les données que vous avez reçues de votre communauté. Cliquez sur _Fichier_ dans la barre supérieure:![](josm-topbar.png)
 
-4. Then we click _Open_ in the menu: ![](josm-file-menu.png)
+4. On clique ensuite sur _Ouvrir_ dans le menu: ![](josm-file-menu.png)
 
-5. A dialog appear and prompts you to select the file you've received from your community. Go to the location where you saved the `*.geojson`, click on that file and then _Open_:![](josm-opendialog.png)
+5. Une boîte de dialogue apparaît et vous invite à sélectionner le fichier que vous avez reçu de votre communauté. Allez à l'endroit où vous avez enregistré le fichier `*.geojson`, cliquez sur ce fichier et ensuite _Ouvrir_:![](josm-opendialog.png)
 
-6. Wait for loading process to finish. Once finish the user interface changes significantly. What we see now is our editor: ![](josm-editor-overview.png)
+6. Attendez la fin du processus de chargement. Une fois le chargement terminé, l'interface utilisateur change considérablement. Ce que nous voyons maintenant est notre éditeur : ![](josm-editor-overview.png)
 
-7. Before we can start mapping we need to prepare the editor and load OSM data in it. Let us load data from OSM first. Click on _File_ in the topbar again: ![](josm-topbar.png)
+7. Avant de pouvoir commencer la cartographie, nous devons préparer l'éditeur et y charger les données OSM. Commençons par charger les données de l'OSM. Cliquez à nouveau sur _Fichier_ dans la barre supérieure: ![](josm-topbar.png)
 
-8. And then _Download data..._: ![](josm-file-menu-downloaddata.png)
+8. Et puis _Télécharger les données..._: ![](josm-file-menu-downloaddata.png)
 
-9. We begin to love popups. In this one we probably do not need to tweak the boundingbox you see in the displayed map because JOSM did this for us because we've loaded the `*.geojson` file: ![](josm-downloaddialog.png)
+9. Nous commençons à aimer les popups. Dans celui-ci, nous n'avons probablement pas besoin de modifier la boîte de délimitation que vous voyez dans la carte affichée parce que JOSM l'a fait pour nous car nous avons chargé le fichier `*.geojson`: ![](josm-downloaddialog.png)
 
-10. Click _Download as new layer_. If it says that the selected area is to big then resize it by returning to that dialog, click and drag the mouse over a smaller part of the previously selected area. Release the mouse to create a new bounding box. Repeat this step until the system is happy :)
+10. Cliquez sur _Télécharger comme nouvelle couche_. Si la zone sélectionnée est trop grande, redimensionnez-la en revenant à cette boîte de dialogue, cliquez et faites glisser la souris sur une partie plus petite de la zone précédemment sélectionnée. Relâchez la souris pour créer une nouvelle boîte de délimitation. Répétez cette étape jusqu'à ce que le système soit satisfait :)
 
-11. This looks more promising: ![](josm-editor-osmdataloaded.png)
+11. Cela semble plus prometteur: ![](josm-editor-osmdataloaded.png)
 
-12. But we're not happy yet, aren't we? To make it even more beautiful we need to add the OSM tiles. We go to _Imagery_ in the topbar and then select _OpenStreetMap Carto (Standard)_. Beautiful, isn't it.
+12. Mais nous ne sommes pas encore heureux, n'est-ce pas ? Pour le rendre encore plus beau, nous devons ajouter les tuiles OSM. Nous allons sur _Imagery_ dans la barre supérieure et nous sélectionnons _OpenStreetMap Carto (Standard)_. C'est beau, n'est-ce pas ?
 
-13. Let us take a quick look on the _Layers_ section on the top right site of the editor.
+13. Jetons un coup d'oeil rapide à la section _Couches_ en haut à droite de l'éditeur.
     
     ![](josm-editor-layers.png)
     
-    By the way: You can resize the sections by clicking on the respective boundaries and dragging them to the position of your desire.
+    Au fait : Vous pouvez redimensionner les sections en cliquant sur les limites respectives et en les faisant glisser jusqu'à la position de votre choix.
 
-14. Right click on the entry with the file extension `.geojson` or `.json`. Then click _Convert to GPX layer_: ![](josm-editor-layers-togpx.png)
+14. Cliquez avec le bouton droit de la souris sur l'entrée portant l'extension de fichier `.geojson` ou `.json`. Puis cliquez sur _Convertir en couche GPX_: ![](josm-editor-layers-togpx.png)
 
-15. The name of the entry changed and looks like this: ![](josm-editor-layers-aftertogpx.png)
+15. Le nom de l'entrée a changé et ressemble à ceci: ![](josm-editor-layers-aftertogpx.png)
 
-16. We right click on the entry again and select
+16. Nous faisons un nouveau clic droit sur l'entrée et sélectionnons
     
-    - _Customize Colour_ at first,
+    - _Personnaliser la couleur_ dans un premier temps,
     
-    - _Download from OSM along this track_ at second
+    - _Téléchargement depuis OSM le long de la piste_ dans un second temps
     
-    - and _Precache imagery tiles along this track_ at last.
+    - et _Précachez les tuiles d'imagerie le long de cette piste_ enfin.
 
-17. Additionally we click on the entry again and select _Customize track drawing_ and a new popup shows up: ![](josm-layers-customizedrawing.png)
+17. En outre, nous cliquons à nouveau sur l'entrée et sélectionnons _Personnaliser le dessin des pistes_ et un nouveau popup apparaît: ![](josm-layers-customizedrawing.png)
 
-18. In the textfield next to _Drawing width of GPX lines_ type in the width in px. I recommend typing in `5`. Then click _Okay_.
+18. Dans le champ de texte à côté de _Largeur de dessin des lignes GPX_, saisissez la largeur en px. Je recommande de taper `5`. Cliquez ensuite sur _Ok_.
 
-19. Press ALT+SHIFT+F1 to stop automatically downloading of data while moving the map. Alternatively click on _File_ in the topbar and then _Download OSM data continuously_. It's a toogle. Then navigate inside the map to the end of the line. To navigate in the map you need to hold the right mouse key while moving the mouse. Use your mouse wheel to zoom in or out. **The line has two ends: _end_ and _start_. Select the one where the arrows come from and not the end where they point to.**
+19. Appuyez sur ALT+SHIFT+F1 pour arrêter le téléchargement automatique des données pendant le déplacement de la carte. Vous pouvez également cliquer sur _Fichier_ dans la barre supérieure, puis sur _Télécharger les données OSM en continu_. C'est un bascule. Ensuite, naviguez à l'intérieur de la carte jusqu'au bout de la ligne. Pour naviguer dans la carte, vous devez maintenir la touche droite de la souris enfoncée tout en déplaçant la souris. Utilisez la molette de votre souris pour faire un zoom avant ou arrière. **La ligne a deux extrémités : _fin_ et _début_. Sélectionnez celle d'où viennent les flèches et non la fin vers laquelle elles pointent.**
     
-    - End <-- Start
+    - Fin <-- Début
     
     - ![](josm-editor-arrowrule.png)
 
-## Preparing OSM data along the route we want to add
+## Préparation des données OSM le long de l'itinéraire que nous voulons ajouter
 
-Before we start we need to do some work on the OSM data itself. In the last image you see the darkred coloured line and the blue one. The first line is the bus route and the latter the street in OSM the bus drives. This part of the tutorial covers how to turn the first line into useful data.
+Avant de commencer, nous devons travailler sur les données de OSM lui-même. Sur la dernière image, vous voyez la ligne de couleur rouge foncé et la ligne bleue. La première ligne représente la ligne de bus et la seconde la rue dans laquelle le bus circule dans OSM. Cette partie du tutoriel explique comment transformer la première ligne en données utiles.
 
-Press ALT+SHIFT+F1 to stop/start automatically downloading of data while moving the map. Alternatively click on *File* in the topbar and then *Download OSM data continuously*. It's a toogle. When you move the map to a section where no data is available then toggle _Download OSM data continuously_ on. If you use the zoom function extensively then turn _Download OSM data continuously_ off.
+Appuyez sur ALT+SHIFT+F1 pour arrêter/démarrer automatiquement le téléchargement des données tout en déplaçant la carte. Vous pouvez également cliquer sur *Fichier* dans la barre supérieure, puis sur *Télécharger les données OSM en continu*. C'est un bascule. Lorsque vous déplacez la carte vers une section où aucune donnée n'est disponible, vous pouvez activer le téléchargement continu de données OSM. Si vous utilisez la fonction de zoom de manière intensive, désactivez _Télécharger les données OSM en continu_.
 
-1. Select the line which is not the darkred one but which is aligned to it: ![](josm-editor-selectedstreet.png)
+1. Sélectionnez la ligne qui n'est pas la plus foncée mais qui est alignée sur celle-ci: ![](josm-editor-selectedstreet.png)
 
-2. We see not the whole line turns red. What is for us one line (the blue one) is in the eyes of the computer not one. The line has been split on the position where _Calle Campinas_ crosses our selected line.
+2. Nous ne voyons pas que toute la ligne devient rouge. Ce qui est pour nous une ligne (la ligne bleue) n'en est pas une aux yeux de l'ordinateur. La ligne a été divisée à l'endroit où _Calle Campinas_ croise la ligne que nous avons sélectionnée.
 
-3. We want to create a route so we click on the line icon in the symbol bar right under the tobar: ![](josm-symbolbar-busroute.png)
+3. Nous voulons créer un itinéraire, donc nous cliquons sur l'icône de ligne dans la barre de symboles juste sous la barre d'outils: ![](josm-symbolbar-busroute.png)
 
-4. A popup shows up prompting you for data you've received from your community. Type in the data in the corresponding fields and click _Okay_. A new window opens up and gives an overview: ![](josm-createrelation-overview.png)
+4. Une fenêtre contextuelle vous invite à saisir les données que vous avez reçues de votre communauté. Tapez les données dans les champs correspondants et cliquez sur _Ok_. Une nouvelle fenêtre s'ouvre et donne un aperçu: ![](josm-createrelation-overview.png)
 
-5. On the right site you see a list of all objects (streets) you've selected in the JOSM editor. On the left site you see a list of all objects (streets) already added to the relation. **Don't close that dialog, we need it!**
+5. Sur le coté droit, vous voyez une liste de tous les objets (rues) que vous avez sélectionnés dans l'éditeur JOSM. Sur le coté gauche, vous voyez une liste de tous les objets (rues) déjà ajoutés à la relation. **Ne fermez pas cette boîte de dialogue, nous en avons besoin !**
 
-6. Select other streets along the darkred line, go to the dialog again and click on the red highlighted entry where the last row of four rows in total is selected to add the selection to the route list on the right site.![](josm-createrelation-addafterlastmember.png)You can select more than one street by pressing and holding the key you use to start a new sentence with an upper letter. 
+6. Sélectionnez d'autres rues le long de la ligne rouge foncé, allez à nouveau dans la boîte de dialogue et cliquez sur l'entrée surlignée en rouge où la dernière ligne de quatre lignes au total est sélectionnée pour ajouter la sélection à la liste des itinéraires sur le coté droit.![](josm-createrelation-addafterlastmember.png)Vous pouvez sélectionner plus d'une rue en appuyant et en maintenant la touche que vous utilisez pour commencer une nouvelle phrase par une lettre majuscule (SHIFT). 
 
-7. Repeat step _6_ after you have the following situation: ![](josm-editor-splitwaysneeded.png)
+7. Répétez l'étape _6_ après avoir constaté la situation suivante: ![](josm-editor-splitwaysneeded.png)
 
-8. _Newton, we've got a problem!_ What do we next is spliting the way. So we click on the map to deselect our selection. Be sure to add all streets except the street in question to the route like in step _6_.
+8. _Newton, nous avons un problème ! _ Ce que nous allons faire ensuite, c'est diviser la route. Alors on clique sur la carte pour désélectionner notre sélection. Assurez-vous d'ajouter toutes les rues, sauf la rue en question, à l'itinéraire comme à l'étape _6_..
 
-9. Select the street (way) in question. Zoom to the point where you need the split: ![](josm-editor-splitwaysneeded2.png)Zoomed in (cuted view):![](josm-editor-splitwaysneeded3.png)
+9. Sélectionnez la rue (chemin) en question. Zoomez jusqu'au point où vous avez besoin de la division: ![](josm-editor-splitwaysneeded2.png)Zoom avant (vue coupée):![](josm-editor-splitwaysneeded3.png)
 
-10. Select the street (here in blue).
+10. Sélectionnez la rue (ici en bleu).
 
-11. Hold down the key you use to write an upper letter at the beginning of a new sentence. Select the square (JOSM highlights it yellow) while holding down the key.![](josm-editor-splitwaysneeded4.png)
+11. Maintenez enfoncée la touche (SHIFT) que vous utilisez pour écrire une lettre majuscule au début d'une nouvelle phrase. Sélectionnez le carré (JOSM le surligne en jaune) tout en maintenant la touche enfoncée.![](josm-editor-splitwaysneeded4.png)
 
-12. In the topbar click on _Tools_ and then on _Split way_. Alternatively press key _P_. A dialog prompts you to decide which way segment should preserve history. Just ignore it and click _Okay_. Deselect everything by clicking on a free space on the map.
+12. Dans la barre supérieure, cliquez sur _Outils_ puis sur _Séparer le chemin_. Vous pouvez également appuyer sur la touche _P_. Une boîte de dialogue vous invite à décider quel segment de voie doit préserver l'historique. Ignorez-le et cliquez sur _OK_. Désélectionnez tout en cliquant sur un espace libre de la carte.
 
-13. Continue with step _6_ until the end of the darkred line.
+13. Continuez avec l'étape _6_ jusqu'à la fin de la ligne foncée.
 
-14. When you reached the end of the darkred line, it means you are almost done. Now we need to validate your work. For that we go to the dialog you should leave open the whole time while mapping.
+14. Lorsque vous avez atteint la fin de la ligne sombre, cela signifie que vous avez presque terminé. Il nous faut maintenant valider votre travail. Pour cela, nous allons dans le dialogue que vous devez laisser ouvert tout le temps pendant la cartographie.
 
-15. You should consult someone with validation if you're unfamilar with it. It's a critical part. Take a look on the different options the dialog offers you.
+15. Si vous n'êtes pas familier avec la validation, vous devriez consulter quelqu'un qui en a la charge. C'est un élément essentiel. Jetez un coup d'œil aux différentes options que le dialogue vous propose.
     
-    - Select an entry from the list on the left site. Right click on it and click _Zoom to_ to zoom to that object on the map. Use this method to repair objects having the following symbol or similiar:![](josm-createvalidation-routelist-error.png)
+    - Sélectionnez une entrée dans la liste sur le coté gauche. Faites un clic droit dessus et cliquez sur _Zoom sur_ pour zoomer sur cet objet sur la carte. Utilisez cette méthode pour réparer les objets ayant le symbole suivant ou un symbole similaire :![](josm-createvalidation-routelist-error.png)
     
-    - Use the feature _Zoom to_ and the map to find missing ways (streets). and hover on the buttons of the highlighted red area next to the _selection_ table to get what they do with the selection.![](josm-createselection-validate.png)
+    - Utilisez la fonction _Zoom sur_ et la carte pour trouver les chemins manquants (rues). et survolez les boutons de la zone rouge surlignée à côté du tableau _selection_ pour obtenir ce qu'ils font de la sélection.![](josm-createselection-validate.png)
     
-    - Black is your friend :) Everything black in the validation line means that the data is okay.![](josm-createrelation-validate2.png)
+    - Le noir est votre ami :) Tout ce qui est noir dans la ligne de validation signifie que les données sont correctes.![](josm-createrelation-validate2.png)
     
-    - The first and last entry show always a red symbol in the validation line because one end is not connected to another way (street). This is logical. A bus route usually ends somewhere.
+    - La première et la dernière entrée montrent toujours un symbole rouge dans la ligne de validation parce qu'une extrémité n'est pas connectée à une autre voie (rue). C'est logique. Une ligne de bus se termine généralement quelque part.
 
-16. In the route list dialog click _Okay_ to create that route. Do it when you think you're finish.
+16. Dans le dialogue de la liste des itinéraires, cliquez sur _OK_ pour créer cet itinéraire. Faites-le quand vous pensez avoir terminé.
 
-17. Click on the _Upload icon_ in the symbolbar right under the topbar: ![](josm-symbolbar-upload.png)
+17. Cliquez sur l'icône _Télécharger_ dans la barre de symboles située juste en dessous de la barre supérieure : ![](josm-symbolbar-upload.png)
 
-18. Ignore the dialogue _Suspicious data found_ when it popups or fix the issues. Inform your community about that and tell them what you've edited.
+18. Ignorez le dialogue _Données suspectes trouvées_ lorsqu'il s'affiche ou corrigez les problèmes. Informez votre communauté à ce sujet et dites-lui ce que vous avez modifié.
 
-19. A new popup appears: ![](josm-uploaddialog.png)
+19. Un nouveau pop-up apparaît: ![](josm-uploaddialog.png)
 
-20. Fil in the information requested and then click _Upload Changes_ to finish upload process.
+20. Remplissez les informations demandées et cliquez ensuite sur _Télécharger les modifications_ pour terminer le processus de téléchargement.
