@@ -1,31 +1,31 @@
-# Explaining _Layers_ in JOSM editor
+# Explication des _Couches_ dans l'éditeur JOSM
 
 ![](josm-editor-layers.png)
 
-You might have seen this before and you might wonder what is this for.
+Vous avez peut-être déjà vu cela auparavant et vous vous demandez peut-être à quoi cela sert.
 
-The entries there represent the order. The first one at the top ( _Converted from: P Se-O 2.json_ ) is the one that will be shown on top of the other layers _Data Layer 1_ and _OpenStreetMap Carto (Standard)_.
+Les inscriptions qui y figurent représentent l'ordre. Le premier en haut ( _Converti de : P Se-O 2.json_ ) est celui qui sera affiché au-dessus des autres couches _Couche de données 1_ et _OpenStreetMap Carto (Standard)_.
 
-As a rule to decide the sorting: The layer who contains the most data is the one who's at the bottom of the list (here: _OpenStreetMap Carto (Standard)_ ). The layer who contains the fewest data is at the top of the list (here: _Converted from: P Se-O 2.json_).
+En règle générale, pour décider du tri : La couche qui contient le plus de données est celle qui se trouve en bas de la liste (ici : OpenStreetMap Carto (Standard)_ ). La couche qui contient le moins de données est celle qui se trouve en haut de la liste (ici : _Converti de : P Se-O 2.json_).
 
-- Imagery like *OpenStreetMap Carto (Standard)* is usually at the bottom on the list because it is a bunch of images and images contain a lot of data. Imagery is also called the _underline map_.
+- Les imageries comme *OpenStreetMap Carto (Standard)* sont généralement en bas de la liste parce qu'il s'agit d'un tas d'images et que les images contiennent beaucoup de données. L'imagerie est également appelée la _carte de fond_.
 
-- OSM data representations which you can modify and upload like _Data Layer 1_ are usually in the middle or at the top of the list. This is the layer which contains the most data after the imagery.
+- Les représentations des données OSM que vous pouvez modifier et télécharger comme la _couche de données 1_ se trouvent généralement au milieu ou en haut de la liste. C'est la couche qui contient le plus de données après l'imagerie.
 
-- When adding external data you received from authorities to OSM then you have something like *Converted from: P Se-O 2.json* at the top of the list because usually they contain just specified datasets and not all. This means they usually does not contain much data.
+- Lorsque vous ajoutez des données externes que vous avez reçues des autorités à l'OSM, vous avez quelque chose comme *Converti de : P Se-O 2.json* en haut de la liste parce qu'elles ne contiennent généralement que des ensembles de données spécifiques et pas tous. Cela signifie qu'ils ne contiennent généralement pas beaucoup de données.
 
-Inside the table you can drag and drop individual rows (entries) to change their position on the list orselect an entry and then click one of the arrow buttons.
+À l'intérieur du tableau, vous pouvez faire glisser et déposer des lignes individuelles (entrées) pour modifier leur position dans la liste ou sélectionner une entrée et cliquer ensuite sur l'un des boutons fléchés.
 
-- I recommend the following order from top to bottom:
+- Je recommande l'ordre suivant, de haut en bas :
   
-  - External datasets received by authorities.
+  - Les ensembles de données externes reçus par les autorités.
   
-  - Data already in OSM
+  - Données déjà dans OSM
   
-  - Imagery
+  - Imagerie
 
-Selecting an entry (layer) and then clicking on the button with the _Rubbish bin_ symbol deletes that selected layer. **Be careful not to loose any changes performed on the data the layer represents.**
+En sélectionnant une entrée (couche) et en cliquant sur le bouton portant le symbole _Poubelle_, on supprime la couche sélectionnée. **Attention à ne pas perdre les modifications effectuées sur les données que la couche représente.**
 
-Clicking on the button with the _eye_ symbol toggles the layer on/off. Meaning it changes its visibility on the map.
+En cliquant sur le bouton avec le symbole _oeil_, on active/désactive la couche. Cela signifie qu'elle change sa visibilité sur la carte.
 
 
