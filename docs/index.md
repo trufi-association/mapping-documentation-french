@@ -42,5 +42,5 @@ Documentation pour les communautés le long du parcours de l'Association Trufi. 
 
 # Contributeurs
 
-- TCHAMIE Léleng Denis ([OSM Togo](https://openstreetmap.tg/))
-- Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/))
+- TCHAMIE Léleng Denis ([OSM Togo](https://wiki.openstreetmap.org/wiki/FR:Togo))
+- Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://wiki.openstreetmap.org/wiki/FR:Togo))

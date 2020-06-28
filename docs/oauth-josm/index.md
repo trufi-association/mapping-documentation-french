@@ -1,7 +1,7 @@
 # Comment lier votre compte OpenStreetMap à JOSM
 
 !!! note ""
-	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://wiki.openstreetmap.org/wiki/FR:Togo)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
 Aujourd'hui, nous allons relier JOSM à votre compte OSM afin que vous puissiez télécharger les modifications depuis JOSM, ce que nous souhaitons tous vivement. Peut-être que la configuration pour cela a été faite par votre communauté en vous laissant configurer le [fichier de configuration JOSM](../installing-mapping-tool/index.md) ou en le faisant pour vous. Suivez simplement les instructions données ici, sinon vous risquez d'endommager quelque chose.
 
