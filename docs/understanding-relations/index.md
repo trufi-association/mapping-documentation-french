@@ -1,7 +1,7 @@
 # Comprendre les relations dans OSM
 
 !!! note ""
-	TCHAMIE Léleng Denis ([OSM Togo](https://wiki.openstreetmap.org/wiki/FR:Togo)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org/))
+	TCHAMIE Léleng Denis ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org/))
 
 Les relations utilisent des objets existants dans la base de données OpenStreetMap pour créer de nouvelles données à partir de données existantes en les connectant. Dans OSM, il existe plusieurs types de relations, par exemple la [Relation 9373675](https://www.openstreetmap.org/relation/9373675) est une relation de bus avec `type=route`.
 
