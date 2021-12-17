@@ -1,6 +1,6 @@
 # Mapping Bus Routes
 
-Documentation pour les communautés le long du parcours de l'Association Trufi. Tous les documents doivent être faciles à comprendre, comporter quelques graphiques et être aussi courts que possible, et les images ne doivent pas être trop petites.
+Documentation pour les communautés le long du parcours de Trufi Association. Tous les documents doivent être faciles à comprendre, comporter quelques graphiques et être aussi courts que possible, et les images ne doivent pas être trop petites.
 
 #### Préparation
 
