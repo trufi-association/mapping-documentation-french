@@ -69,7 +69,7 @@ Appuyez sur ALT+SHIFT+F1 pour arrêter/démarrer automatiquement le télécharge
 
 2. Nous ne voyons pas que toute la ligne devient rouge. Ce qui est pour nous une ligne (la ligne bleue) n'en est pas une aux yeux de l'ordinateur. La ligne a été divisée à l'endroit où _Calle Campinas_ croise la ligne que nous avons sélectionnée.
 
-3. Nous voulons créer un itinéraire, donc nous cliquons sur l'icône de ligne dans la barre de symboles juste sous la barre d'outils: ![](josm-symbolbar-busroute.png)
+3. We want to create a route so we click on *Presets* (in the topbar) --> *Transport* --> *Public Transport* --> *Public Transport Route (Bus)*: ![](josm-symbolbar-busroute.png)
 
 4. Une fenêtre contextuelle vous invite à saisir les données que vous avez reçues de votre communauté. Tapez les données dans les champs correspondants et cliquez sur _Ok_. Une nouvelle fenêtre s'ouvre et donne un aperçu: ![](josm-createrelation-overview.png)
 
