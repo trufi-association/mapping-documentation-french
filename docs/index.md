@@ -1,4 +1,4 @@
-# Mapping Bus Routes
+# Cartographie des lignes de bus
 
 Documentation pour les communautés le long du parcours de Trufi Association. Tous les documents doivent être faciles à comprendre, comporter quelques graphiques et être aussi courts que possible, et les images ne doivent pas être trop petites.
 
