@@ -36,12 +36,12 @@ Sautez cette étape lorsque votre communauté a décidé de ne pas cartographier
 
 Sautez cette étape lorsque votre communauté a décidé de se contenter de cartographier la position de l'arrêt de bus sur la route. Nous supposons que vous avez déjà ouvert JOSM et que vous vous êtes rendu à l'endroit sur la carte où vous souhaitez cartographier une zone d'attente pour les passagers.![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bayview_trstwy.jpg/320px-Bayview_trstwy.jpg)
 
-1. Dans la vue d'édition de la carte, cliquez sur le symbole _dessin de nœud/voie_ (surligné en rouge dans l'image) : ![](josm-editor-addnote.png)
+1. Dans la vue d'édition de la carte, cliquez sur le symbole _dessin de nœud/voie_ (surligné en rouge dans l'image) : ![](josm-editor-addnote/out.png)
 
-2. Cliquez sur une position de la carte où vous voulez créer le nœud. Double-cliquez sur la position sur la carte pour ajouter la note et pour quitter le mode dessin afin qu'elle ressemble à ceci (sans le cercle rouge autour) : ![](josm-editor-nodeonmap.png)
+2. Cliquez sur une position de la carte où vous voulez créer le nœud. Double-cliquez sur la position sur la carte pour ajouter la note et pour quitter le mode dessin afin qu'elle ressemble à ceci (sans le cercle rouge autour) : ![](josm-editor-nodeonmap/out.png)
 
-3. Cliquez sur l'icône _bus_ ou allez dans _Préréglages_ --> _Transport Public_ --> _Plateforme d'attente (qui)_ et une fenêtre s'ouvre qui vous demande le nom de l'arrêt de bus (entre autres détails selon la configuration):![](josm-busstation-addname.png)
+3. Cliquez sur l'icône _bus_ ou allez dans _Préréglages_ --> _Transport Public_ --> _Plateforme d'attente (qui)_ et une fenêtre s'ouvre qui vous demande le nom de l'arrêt de bus (entre autres détails selon la configuration):![](josm-busstation-addname/out.png)
 
-4. Remplissez les champs que vous pouvez remplir et cliquez ensuite sur _Appliqué les préréglages_ (surligné en jaune) pour appliquer les préréglages et pour que l'écran de l'éditeur vous dessine un symbole de bus sur la carte (sans le cercle rouge): ![](josm-editor-bussymbolonmap.png)
+4. Remplissez les champs que vous pouvez remplir et cliquez ensuite sur _Appliqué les préréglages_ (surligné en jaune) pour appliquer les préréglages et pour que l'écran de l'éditeur vous dessine un symbole de bus sur la carte (sans le cercle rouge): ![](josm-editor-bussymbolonmap/out.png)
 
 5. Terminer. Commencez à cartographier d'autres positions d'attente comme celle-ci.
