@@ -3,24 +3,24 @@
 !!! note ""
 	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
-Vous avez peut-être vu![](josm-topbar-tools.png)
+Vous avez peut-être vu![](josm-topbar-tools/out.png)
 
 et vous vous demandez de quoi il s'agit. Je vais vous en donner un bref aperçu.
 
 ## Préparation pour que l'utilitaire soit utile
 
-1. Nous avons besoin d'une voie et d'une position pour mener des actions. La sélection deviendra rouge comme ![](josm-editor-selectway.png)
+1. Nous avons besoin d'une voie et d'une position pour mener des actions. La sélection deviendra rouge comme ![](josm-editor-selectway/out.png)
 
     En maintenant la touche MAJ enfoncée et en cliquant sur d'autres voies, vous pouvez sélectionner plus d'une seule. Pour que certaines fonctions soient utiles, cela est nécessaire.
 
-2. On clique sur _Outils_ dans la barre supérieure: ![](josm-topbar-tools.png)
+2. On clique sur _Outils_ dans la barre supérieure: ![](josm-topbar-tools/out.png)
 
 3. Ensuite, nous avons les options suivantes en fonction de notre sélection:
    
    - **Partager une ligne**: Utilisé pour faire deux voies à partir d'une. Cela est utile lorsque vous ajoutez un itinéraire à OSM et qu'un chemin est plus long que l'itinéraire qui le suit. Habituellement, vous voulez vous séparer à la position où la ligne rouge foncé suit son propre chemin. (voir l'image ci-dessus). Voir aussi mon [tutoriel dédié](../split-ways/index.md).
    - **Fusionner des chemins**: Utilisé pour faire un chemin à partir de deux chemins. Le contraire de la fonction _Partager une ligne_. Pour que cette fonction soit efficace, vous devez sélectionner deux voies en maintenant la touche SHIFT enfoncée et en les sélectionnant.
-     - Non sélectionné: ![](josm-editor-twoways.png)
-     - Sélectionné: ![](josm-editor-twowaysselected.png)
+     - Non sélectionné: ![](josm-editor-twoways/out.png)
+     - Sélectionné: ![](josm-editor-twowaysselected/out.png)
    - **Reserve direction**: Used to reserve the direction of one or more ways. This just changes the technical direction how the data was entered (beginning to draw the way from left to right or backwards). Mappers use this tool just to make technical data more clean. This feature does not affect the interpretation of the data, it doesn't affect tags. **You likely don't need it.**
    - **Simplify way**: Used to remove unncessary nodes from a way. Technically a bunch of nodes connected to each other in a specified order represent a way. This is another option to make OSM data more beautiful, it does not affect the tags from the way itself. Nodes on a way usually don't have tags (are empty).
    - **Align nodes in a circle**: This function does what it says. This is another feature you rarely need.

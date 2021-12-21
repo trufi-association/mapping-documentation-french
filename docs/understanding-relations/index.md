@@ -7,19 +7,19 @@ Les relations utilisent des objets existants dans la base de données OpenStreet
 
 ---
 
-![](streets.png)
+![](streets/out.png)
 
 On voit ici un tas de rues avec leurs noms (la rue --> la calle). Les rues sont représentées par une ou plusieurs voies. Nous ne pouvons pas savoir quelle itinéraire de bus passe dans quelle rue. Par exemple nous ne savons pas que le trajet du _Bus 101_ utilise les rues _Avenida Republica_ et _Avenida Oquendo_. C'est là qu'interviennent les relations. Les relations nous permettent de relier des rues à un itinéraire, de sorte que nous savons exactement quel ligne bus circule dans quelle rue.
 
-![](busroute.png)
+![](busroute/out.png)
 
 La ligne orange indique l'itinéraire emprunté par le _Bus 101_. Il s'agit maintenant d'ajouter ces informations dans OSM.
 
-![](connected-streets.png)
+![](connected-streets/out.png)
 
 Nous voyons ici une petite partie de la relation d'un itinéraire de bus. Et tout ce qui fait partie de la relation est marqué en rouge. Cela signifie que toutes les rues (voies) qui sont marquées en rouge appartiennent en fait à la relation : Nous avons relié la rue *Avenida Republica* avec la rue *Avenida Oquenda* dans notre relation. Une relation est donc essentiellement un ensemble de nœuds et de voies dans un ordre précis et décrit une caractéristique de haut niveau (par exemple, une ligne de bus) en combinant simplement des données existantes.
 
-![](relation-street-list.png)
+![](relation-street-list/out.png)
 
 JOSM peut nous montrer les membres (rues) de la relation non seulement graphiquement mais aussi sous forme de tableau. Le tableau montre une liste ordonnée de haut en bas des voies qui font partie de la relation.
 

@@ -3,7 +3,7 @@
 !!! note ""
 	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
-![](josm-editor-layers.png)
+![](josm-editor-layers/out.png)
 
 Vous avez peut-être déjà vu cela auparavant et vous vous demandez peut-être à quoi cela sert.
 
