@@ -15,7 +15,7 @@ JOSM est une application de bureau que nous utilisons pour ajouter des itinérai
 
 3. La fenêtre qui s'ouvre devrait ressembler à la mienne: ![](terminal/out.png)
 
-4. Dans cette fenêtre, nous tapons `java -version`et nous appuyons sur la touche ENTRÉE pour vérifier si elle est déjà installée. La plupart des dérivés de Linux ont java installé par défaut.
+4. Dans cette fenêtre, nous tapons `java -version` et nous appuyons sur la touche ENTRÉE pour vérifier si elle est déjà installée. La plupart des dérivés de Linux ont java installé par défaut.
 
 5. Si votre fenêtre ressemble à ceci, vous avez déjà installé Java et vous pouvez ignorer _Installation de Java_: ![](terminal-java-version/out.png)
 
