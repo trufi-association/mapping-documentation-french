@@ -3,11 +3,7 @@
 !!! note ""
 	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
-## Installation de JOSM sur Linux
-
-JOSM est une application de bureau que nous utilisons pour ajouter des itinéraires de transport public à OpenStreetMap. Mais JOSM (Java OpenStreetMap (éditeur)) est beaucoup plus puissant et parfois aussi compliqué. Nous avons écrit un _[guide] (../installation-mapping-tool/index.md)_ pour vous qui le rend plus facile à utiliser pour cartographier les itinéraires de transports publics. Cette documentation ne couvre que les étapes d'installation de JOSM. Nous ne montrons pas ici comment l'utiliser pour cartographier des itinéraires. Elle couvre seulement la procédure d'installation sous Linux.
-
-### Installation de Java
+## Installation de Java
 
 1. Ouvrez un terminal en appuyant sur la touche _WINDOWS_ de votre clavier et en tapant "terminal" dans la barre de recherche. Cela dépend du système d'exploitation et du menu de démarrage que vous utilisez, la façon dont la barre de recherche fonctionne en détail. Vous devrez peut-être l'activer d'abord pour commencer à taper.
 
@@ -43,11 +39,11 @@ JOSM est une application de bureau que nous utilisons pour ajouter des itinérai
    
    - **ToDo:** _Ajouter plus de dérivés de Linux_.
 
-### Installation de JOSM
+## Installation de JOSM
 
 À ce stade, nous n'avons plus besoin du terminal.
 
-1. Télécharger JOSM [ici](https://josm.openstreetmap.de/). ![](website-josm-download/out.png)
+1. Télécharger JOSM [ici](https://josm.openstreetmap.de/). ![](website-jar-download/out.png)
 
 2. Enregistrez-le sur votre ordinateur ou sur un périphérique de stockage portable. Enregistrez-le où vous voulez.
 
