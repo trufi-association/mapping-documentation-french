@@ -1,8 +1,8 @@
 # Cartographie des lignes de bus
 
-This tutorial collection curated by Trufi Association e.V. aims to make bus route mapping for OpenStreetMap easier using J0SM to enable communities to document their public transportation systems digitally.
+Cette série de tutoriels mise au point par l'association Trufi e.V. vise à faciliter la cartographie des lignes de bus en utilisant J0SM pour OpenStreetMap afin de permettre aux communautés de numériser leurs systèmes de transport public.
 
-## Setting up your workspace
+## Configurer votre espace de travail
 
 JOSM est une application de bureau que nous utilisons pour ajouter des itinéraires de transport public à OpenStreetMap. Mais JOSM (Java OpenStreetMap (éditeur)) est beaucoup plus puissant et parfois aussi compliqué.
 

@@ -1,67 +1,67 @@
-# Installing JOSM on linux
+# Installation de JOSM sous linux
 
-Overview of the various method of installing JOSM on graphical linux operating systems e.g. debian based linux distributions like Ubuntu, Kubuntu and Debian itself or on any non-debian OS having Flatpak.
+Aperçu des différentes méthodes d'installation de JOSM sur les systèmes d'exploitation linux graphiques, par exemple les distributions linux basées sur Debian comme Ubuntu, Kubuntu et Debian elle-même, ou sur tout système d'exploitation non Debian disposant de Flatpak.
 
-**Use software centers and other graphical user interfaces as much as possible to do yourself a favour and only use the terminal/konsole if it's easier for faster to work with.**
+**Utilisez autant que possible les logithèques et autres interfaces graphiques pour vous rendre service et n'utilisez le terminal/console que s'il est plus facile pour vous de vous en servir plus rapidement.**
 
-## 1. Method: Install using Flatpak (recommended)
+## 1. Méthode : Installer en utilisant Flatpak (recommandé)
 
-[Installing using Flatpak](https://flathub.org/apps/details/org.openstreetmap.josm) (external link) is our recommended installation method which is equal across most linux variants. Execute the command
+[Installation à l'aide de Flatpak](https://flathub.org/apps/details/org.openstreetmap.josm) (lien externe) est notre méthode d'installation recommandée qui est la même pour la plupart des variantes de linux. Exécutez la commande
 
 ```bash
 flatpak install app/org.openstreetmap.josm/x86_64/stable -y
 ```
 
-or use flatpaks' auto resolving functionality:
+ou utiliser la fonctionnalité de résolution automatique de Flatpak :
 
 ```bash
 flatpak install josm
 ```
 
-Alternatively you can use your software center if it's set up for Flatpak.
+Vous pouvez également utiliser votre logitèque s'il est configuré pour Flatpak.
 
-**Flatpak needs to be installed on your system for this to work. We recommend all JOSM users to install using this method because this is the smartest, safiest and easiest way of installing applications on Linux. So consider installing and setting up Flatpak if you don't already have.**
+**Flatpak doit être installé sur votre système pour que cela fonctionne. Nous recommandons à tous les utilisateurs de JOSM d'utiliser cette méthode d'installation car c'est la manière la plus intelligente, la plus sûre et la plus simple d'installer des applications sous Linux. Pensez donc à installer et à configurer Flatpak si vous ne l'avez pas encore fait.**
 
-## 2. Method: Using our bash script
+## 2. Méthode : Utiliser notre script bash
 
-1. Install using our own script we wrote with support of some linux systems which you can download [here](https://trufi-association.org/installJOSM.sh) (external link to our website).
-2. Save it somewhere on your disk e.g. *Downloads* folder.
-3. Flag is as an executable (right click on file --> *Properties* --> *Permissions* --> check *make it executable* or similiar)
-4. Execute it as the superuser (*root* user) in a terminal because your attention is needed.
-4. After successfull execution you can remove that script.
+1. Installer en utilisant notre propre script que nous avons écrit avec le support de certains systèmes linux que vous pouvez télécharger. [ici](https://trufi-association.org/installJOSM.sh) (lien externe vers notre site web).
+2. Enregistrez-le quelque part sur votre disque, par exemple dans le dossier *Téléchargements*.
+3. Identifiez-le comme un fichier exécutable (clic droit sur le fichier --> *Propriétés* --> *Permissions* --> cocher *Autoriser l'exécution du fichier comme un programme* ou similaire)
+4. Exécutez-le en tant que super-utilisateur (utilisateur *root*) dans un terminal car votre attention est requise.
+4. Après une exécution réussie, vous pouvez supprimer ce script.
 
-## 3. Method: Using package management system (not recommended)
+## 3. Méthode : Utilisation du système de gestion des paquets (non recommandé)
 
-**Open a terminal/konsole and execute all following commands as root**. Our bash install script runs these commands automatically after detecting the appropriate available installation method on the system.
+**Ouvrez un terminal / console et exécutez toutes les commandes suivantes en tant que root**. Notre script d'installation bash exécute ces commandes automatiquement après avoir détecté la méthode d'installation appropriée disponible sur le système.
 
-### Ubuntu, Debian and derivatives
+### Ubuntu, Debian et dérivés
 
-Register the official JOSM repository
+Inscrire le dépôt officiel de JOSM
 
 ```bash
 echo "deb https://josm.openstreetmap.de/apt alldist universe" > /etc/apt/sources.list.d/josm.list
 ```
    
-and then its public key<br/>
-using `wget`
+et ensuite sa clé publique<br/>
+en utilisant `wget`
 
 ```bash
 wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
 ```
 
-or using `curl`
+ou en utilisant `curl`
 
 ```bash
 curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
 ```
 
-Before attempting to install refresh the sources
+Avant de tenter l'installation, actualisez les sources
 
 ```bash
 sudo apt update
 ```
 
-to be able to finally install JOSM
+pour pouvoir enfin installer JOSM
 
 ```bash
 sudo apt install josm
@@ -69,7 +69,7 @@ sudo apt install josm
 
 ### OpenSUSE
 
-Grab the version
+Récupérez la version
 
 ```bash
 version=`cat /etc/os-release | grep "VERSION_ID"`
@@ -77,13 +77,13 @@ version=${version/VERSION_ID=/}
 version=${version//\"/}
 ```
 
-and add the 'Geo' depot
+et ajouter le dépôt 'Geo'.
 
 ```bash
 zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
 ```
 
-in order to be able to install JOSM using
+afin de pouvoir installer JOSM en utilisant
 
 ```bash
 zypper install josm josm-fonts
@@ -91,9 +91,9 @@ zypper install josm josm-fonts
 
 ### Debian
 
-**Use this only when the steps in "Ubuntu, Debian and derivatives" don't work for you.**
+**Utilisez ceci uniquement lorsque les étapes de "Ubuntu, Debian et dérivés" ne fonctionnent pas pour vous.**
 
-Get codename of your debian installation first
+Obtenez d'abord le nom de code de votre installation Debian.
 
 ```bash
 codename=`cat /etc/os-release | grep "VERSION_CODENAME"`
@@ -101,25 +101,25 @@ codename=${codename/VERSION_CODENAME=/}
 codename=${codename//\"/}
 ```
 
-to be able to add the right backports repository
+pour pouvoir ajouter le bon dépôt de backports
 
 ```bash
 echo "deb http://deb.debian.org/debian ${codename}-backports main" > /etc/apt/sources.list.d/backports.list
 ```
 
-Before attempting to install refresh the sources
+Avant de tenter l'installation, actualisez les sources
 
 ```bash
 apt update
 ```
 
-and now finally install JOSM from backports
+et enfin installer JOSM à partir des backports
 
 ```bash
 apt install josm/${codename}-backports
 ```
 
-## 4. Method: Use .jar version of JOSM (not recommended)
+## 4. Méthode : Utiliser la version .jar de JOSM (non recommandé)
 
-Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./linux-java-jar.md) showing how to install Java and how to use a `.jar` file in general.
+Exécuter JOSM sur linux en utilisant son `.jar`. Mais vous devez avoir installé Java si vous ne l'avez pas déjà fait. Nous avons écrit un tutoriel que vous pouvez trouver [ici](./linux-java-jar.md) montrant comment installer Java et comment utiliser un fichier `.jar` en général.
 

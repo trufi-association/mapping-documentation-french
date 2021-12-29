@@ -1,25 +1,25 @@
-# Installing JOSM on Windows 
+# Installation de JOSM sous Windows 
 
-We will cover here how to install JOSM on Windows using various methods.
+Nous allons voir ici comment installer JOSM sur Windows en utilisant différentes méthodes.
 
-## 1. Method: Install JOSM using an installer
+## 1. Méthode : Installer JOSM à l'aide d'un programme d'installation
 
-Use this method if you **don't have** Java installed, installation of Java JRE on Windows is too complicated or JOSM will be your only application which depends on Java.
+Utilisez cette méthode si vous **n'avez pas** Java installé, si l'installation de Java JRE sur Windows est trop compliquée ou si JOSM est votre seule application qui dépend de Java.
 
-1. Go to <https://josm.openstreetmap.de>
-2. Download [Windows installer](https://josm.openstreetmap.de/download/windows/josm-setup.exe) (external link).
+1. Aller sur <https://josm.openstreetmap.de>
+2. Télécharger [Installateur Windows](https://josm.openstreetmap.de/download/windows/josm-setup.exe) (lien externe).
    ![](website-exe-download/out.png)
-3. Save it somewhere e.g. in your *Downloads* folder and execute it.
-3. After successfull installation you can remove that installer.
+3. Enregistrez-le quelque part, par exemple dans votre dossier *Téléchargements*, puis exécutez-le.
+3. Après une installation réussie, vous pouvez supprimer cet installateur.
 
-## 2. Method: Install JOSM as `.jar`
+## 2. Méthode : Installez JOSM en tant que `.jar`.
 
-Use this method if you **have** Java installed, installation of Java JRE on Windows is not a problem for you or JOSM is not your only application which depends on Java.
+Utilisez cette méthode si vous **avez** Java installé, si l'installation de Java JRE sur Windows ne vous pose pas de problème ou si JOSM n'est pas votre seule application qui dépend de Java.
 
-1. Go to <https://josm.openstreetmap.de>
-2. Download [josm-tested.jar](https://josm.openstreetmap.de/josm-tested.jar) (external link).
+1. Aller sur <https://josm.openstreetmap.de>
+2. Télécharger [josm-tested.jar](https://josm.openstreetmap.de/josm-tested.jar) (lien externe).
    ![](./website-jar-download/out.png)
-3. Save it somewhere on your disk e.g. create a *Portable Apps* folder on your desktop and put that file in there. This way you also maintain a good structure in using portable apps.
-4. Execute JOSM by double clicking on its file.
-   **If nothing happens over 10 seconds (depending on your hardware) that means probably you haven’t Java installed or the file association *.jar* not properly associated with it.**
+3. Enregistrez-le quelque part sur votre disque, par exemple en créant un dossier *Applications portables* sur votre bureau et en y plaçant ce fichier. De cette façon, vous conservez une bonne structure pour l'utilisation des applications portables.
+4. Exécutez JOSM en double-cliquant sur son fichier.
+   **Si rien ne se passe pendant plus de 10 secondes (en fonction de votre matériel), cela signifie que vous n'avez probablement pas installé Java ou que l'association de fichiers *.jar* ne lui est pas correctement associée.**
 

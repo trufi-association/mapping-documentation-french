@@ -1,33 +1,33 @@
-# Installing JOSM on Mac 
+# Installation de JOSM sur Mac 
 
-We will cover here how to install JOSM on Mac using various methods.
+Nous allons couvrir ici comment installer JOSM sur Mac en utilisant différentes méthodes.
 
-## 1. Method: Install JOSM via Homebrew
+## 1. Méthode : Installer JOSM via Homebrew
 
-1. Open a terminal
-2. Execute
+1. Ouvrir un terminal
+2. Executer
 ```bash
 brew install --cask josm
 ```
 
-to install
+pour installer
 
-## 2 Method: Install JOSM using a package
+## 2 Méthode : Installer JOSM à l'aide d'un paquet
 
-Use this method if you **don't have** Homebrew installed, installation of Homebrew too complicated or JOSM will be your only application which you will install over Hombrew
+Utilisez cette méthode si vous **n'avez pas** Homebrew installé, si l'installation de Homebrew est trop compliquée ou si JOSM sera votre seule application que vous installerez par-dessus Hombrew.
 
-1. Go to https://josm.openstreetmap.de
-2. Download [MacOS package](https://josm.openstreetmap.de/download/macosx/josm-macosx.zip) (external link).
+1. Aller sur https://josm.openstreetmap.de
+2. Télécharger [Paquet MacOS](https://josm.openstreetmap.de/download/macosx/josm-macosx.zip) (lien externe).
    ![](website-macpackage-download/out.png)
-3. Save it somewhere e.g. in your *Downloads* folder and execute it.
+3. Enregistrez-le quelque part, par exemple dans votre dossier *Téléchargements*, puis exécutez-le.
 
-## 3. Method: Install JOSM as `.jar`
+## 3. Méthode : Installez JOSM en tant que `.jar`.
 
-Use this method if you **have** Java installed, installation of Java JRE on Mac is not a problem for you or JOSM is not your only application which depends on Java.
+Utilisez cette méthode si vous **avez** Java installé, si l'installation de Java JRE sur Mac ne vous pose pas de problème ou si JOSM n'est pas votre seule application qui dépend de Java.
 
-1. Go to <https://josm.openstreetmap.de>
-2. Download [josm-tested.jar](https://josm.openstreetmap.de/josm-tested.jar) (external link).
+1. Aller sur <https://josm.openstreetmap.de>
+2. Télécharger [josm-tested.jar](https://josm.openstreetmap.de/josm-tested.jar) (lien externe).
    ![](./website-jar-download/out.png)
-3. Save it somewhere on your disk e.g. create a *Portable Apps* folder on your desktop and put that file in there. This way you also maintain a good structure in using portable apps.
-4. Execute JOSM by double clicking on its file.
-   **If nothing happens over 10 seconds (depending on your hardware) that means probably you haven’t Java installed or the file association *.jar* not properly associated with it.**
+3. Enregistrez-le quelque part sur votre disque, par exemple en créant un dossier *Applications portables* sur votre bureau et en y plaçant ce fichier. De cette façon, vous conservez une bonne structure pour l'utilisation des applications portables.
+4. Exécutez JOSM en double-cliquant sur son fichier.
+   **Si rien ne se passe pendant plus de 10 secondes (en fonction de votre matériel), cela signifie que vous n'avez probablement pas installé Java ou que le fichier d'association *.jar* ne lui est pas correctement associé.**
