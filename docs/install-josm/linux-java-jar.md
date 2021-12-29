@@ -52,3 +52,5 @@
 4. Allez à la section _Permissions_ et cochez-y la case _Autoriser l'exécution du fichier comme programme_: ![](properties-permissions/out.png)
 
 5. Nous pouvons fermer la fenêtre et un double clic sur l'icône du programme devrait ouvrir JOSM. Si JOSM ne s'ouvre pas mais qu'une fenêtre apparaît et que vous voyez des boutons dont l'un est intitulé _Run_, alors cliquez sur ce bouton et JOSM devrait s'ouvrir.
+
+
