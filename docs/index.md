@@ -42,4 +42,4 @@ Un aperçu rapide de la section _Couches_ de l'éditeur JOSM. C'est un outil tr�
 # Contributeurs
 
 - TCHAMIE Léleng Denis ([OSM Togo](https://openstreetmap.tg/))
-- Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/))
+- Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) 
