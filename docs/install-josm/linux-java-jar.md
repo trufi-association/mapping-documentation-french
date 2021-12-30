@@ -1,4 +1,4 @@
-# Dealing with .jar files on linux
+# Traitement des fichiers .jar sous linux
 
 !!! note ""
 	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))

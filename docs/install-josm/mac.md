@@ -1,4 +1,7 @@
-# Installation de JOSM sur Mac 
+# Installation de JOSM sur Mac
+
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
 Nous allons couvrir ici comment installer JOSM sur Mac en utilisant différentes méthodes.
 

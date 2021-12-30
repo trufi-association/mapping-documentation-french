@@ -6,9 +6,9 @@ Cette série de tutoriels mise au point par l'association Trufi e.V. vise à fac
 
 JOSM est une application de bureau que nous utilisons pour ajouter des itinéraires de transport public à OpenStreetMap. Mais JOSM (Java OpenStreetMap (éditeur)) est beaucoup plus puissant et parfois aussi compliqué.
 
-[**Installation de JOSM sur linux**](./install-josm/linux.md)
+[**Installation de JOSM sous Linux**](./install-josm/linux.md)
 
-[**Installation de JOSM sur Windows**](./install-josm/windows.md)
+[**Installation de JOSM sous Windows**](./install-josm/windows.md)
 
 [**Installation de JOSM sur Mac**](./install-josm/mac.md)
 

@@ -1,5 +1,8 @@
 # Installation de JOSM sous Windows 
 
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
+
 Nous allons voir ici comment installer JOSM sur Windows en utilisant différentes méthodes.
 
 ## 1. Méthode : Installer JOSM à l'aide d'un programme d'installation

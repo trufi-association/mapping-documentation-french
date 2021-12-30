@@ -1,4 +1,7 @@
-# Installation de JOSM sous linux
+# Installation de JOSM sous Linux
+
+!!! note ""
+	Kokou Elolo AMEGAYIBO - AKEAmazan ([OSM Togo](https://openstreetmap.tg/)) a traduit la page en français. Oeuvre originale de Sören Reinecke ([Trufi Association](https://trufi-association.org))
 
 Aperçu des différentes méthodes d'installation de JOSM sur les systèmes d'exploitation linux graphiques, par exemple les distributions linux basées sur Debian comme Ubuntu, Kubuntu et Debian elle-même, ou sur tout système d'exploitation non Debian disposant de Flatpak.
 
